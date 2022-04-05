@@ -20,7 +20,7 @@ const app = {
         let hash = location.hash.replace('#' ,'');
         document.querySelector('.active').classList.remove('active');
         document.getElementById(hash).classList.add('active');
-        history.pushState({}, currentPage, `${currentPage}`);
+        history.pushState({}, currentPage, `#${currentPage}`);
         document.getElementById(hash).dispatchEvent(app.show);
     }
 }
