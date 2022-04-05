@@ -6,21 +6,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-image: #fff;
     background-color: #35363a;
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
-}
-
-header {
-    margin-bottom: 2rem 5rem;
-    /*position: sticky;*/
-    top: 0;
-}
-
-footer {
-    /*position: sticky;*/
-    bottom: 0;
 }
 
 hr {
