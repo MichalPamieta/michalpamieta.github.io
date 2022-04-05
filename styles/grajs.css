@@ -85,3 +85,49 @@
 #reset-stats:hover {
   background: orange;
 }
+
+@media only screen and (min-width: 1921px) and (min-height: 1081px) {
+
+#game-board {
+    width: 600px;
+    margin: 200px auto;
+}
+
+.game-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    line-height: 200px;
+    font-size: 120px;
+}
+
+#turn.x span.x,
+#turn.o span.o,
+#turn.winner span.winner,
+#game-messages.whosnext > h2.whosnext, 
+#game-messages.win-x > h2.win-x, 
+#game-messages.win-o > h2.win-o,
+#game-messages.draw > h2.draw {
+    margin-top: 20px;
+}
+
+#score {
+  line-height: 250%;
+}
+
+#reset-game,
+#reset-stats {
+  padding: 0.7em 1.2em;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: gold;
+  text-align: center;
+  border: 5px solid red;
+  border-radius: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px 15px;
+}
+
+}
